@@ -22,7 +22,6 @@ const passes = [
         name: "Silver Pass",
         accent: "from-blue-100 to-blue-200",
         badge: "2 Day Event + Blueprint Access",
-        discount: "Save ₹10K",
         features: [
             "All Bronze Pass Benefits (Both Days)",
             "Global CXO Blueprint Course",
