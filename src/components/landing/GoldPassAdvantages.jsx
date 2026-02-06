@@ -17,7 +17,7 @@ export default function GoldPassAdvantages() {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            className="space-y-8"
+            className="space-y-6"
         >
             <h3 className="text-2xl font-bold text-white flex items-center gap-4">
                 <div className="h-px bg-white/10 grow" />
@@ -35,11 +35,6 @@ export default function GoldPassAdvantages() {
                 ))}
             </div>
 
-            <div className="text-center">
-                <span className="text-3xl font-black text-white italic tracking-tighter">
-                    Everything for <span className="text-amber-500 underline decoration-amber-500/20 underline-offset-4">₹18,000</span>
-                </span>
-            </div>
         </motion.section>
     );
 }

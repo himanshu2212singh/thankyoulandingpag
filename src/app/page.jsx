@@ -11,6 +11,8 @@ import FastActionCTA from "@/components/landing/FastActionCTA";
 import Link from "next/link";
 import Image from "next/image";
 import VIPAlertGroup from "@/components/landing/VIPAlertGroup";
+import PricingTable from "@/components/landing/PricingTable";
+import WhatsAppSupport from "@/components/landing/WhatsAppSupport";
 import cxoImage from "../images/cxo-leaders.png";
 
 export default function ThankYouPage() {
@@ -59,11 +61,12 @@ export default function ThankYouPage() {
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.8, ease: "easeOut" }}
-                className="max-w-4xl mx-auto px-6 py-6 relative z-10 space-y-10"
+                className="max-w-6xl mx-auto px-6 py-8 relative z-10 space-y-8"
             >
                 <Confirmation />
                 <UpgradeSection />
                 <GoldPassAdvantages />
+                <PricingTable />
                 <FastActionCTA />
                 <VIPAlertGroup />
 
@@ -141,6 +144,7 @@ export default function ThankYouPage() {
                     </div>
                 </div>
             </footer>
+            <WhatsAppSupport />
         </main>
     );
 }

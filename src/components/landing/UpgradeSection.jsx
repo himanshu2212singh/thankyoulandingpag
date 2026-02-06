@@ -10,11 +10,11 @@ export default function UpgradeSection() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="bg-slate-900/50 backdrop-blur-xl border border-white/5 rounded-3xl p-6 md:p-10 shadow-2xl relative overflow-hidden group"
+            className="bg-slate-900/50 backdrop-blur-xl border border-white/5 rounded-3xl p-6 md:p-8 shadow-2xl relative overflow-hidden group"
         >
             <div className="absolute top-0 right-0 w-64 h-64 bg-amber-600/5 blur-3xl -translate-y-1/2 translate-x-1/2 group-hover:bg-amber-600/10 transition-colors" />
 
-            <div className="space-y-8 relative z-10">
+            <div className="space-y-6 relative z-10">
                 <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-amber-500/10 border border-amber-500/20 rounded-full text-amber-500 text-xs font-bold uppercase tracking-widest">
                     <Crown className="w-3.5 h-3.5" />
                     Limited Upgrade Available
